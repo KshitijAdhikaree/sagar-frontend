@@ -25,7 +25,7 @@ const Contact = () => {
         <div className="">
           <div className="flex flex-auto">
             <div className="px-40 py-20 w-3/4 sm:px-8 sm:py-10 ">
-              <h2 className="text-4xl font-bold text-secondary text-center sm:text-3xl ">
+              <h2 className="text-4xl font-bold text-secondary py-6 text-center sm:text-3xl ">
                 Send Us a Message
               </h2>
               <form onSubmit={handleSubmit}>
@@ -71,7 +71,7 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    className="w-full rounded-lg text-white border-gray-400 p-2 bg-black sm:h-40"
+                    className="w-full rounded-lg text-white border-gray-400 p-2  bg-black sm:h-40"
                     id="message"
                     name="message"
                     rows="5"
@@ -81,7 +81,7 @@ const Contact = () => {
                   />
                 </div>
                 <button
-                  className="border-2 border-secondary text-white px-4 py-2 rounded-lg hover:bg-white hover:text-black"
+                  className="border-2 border-secondary text-white px-4 py-3 rounded-lg hover:bg-white hover:text-black"
                   type="submit"
                 >
                   Submit

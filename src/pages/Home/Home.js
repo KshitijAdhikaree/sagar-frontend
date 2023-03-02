@@ -3,9 +3,9 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <div className="flex w-full items-center sm:flex-col">
+      <div className="flex w-full h-full items-center sm:flex-col">
         <div
-          className="bg-primary w-full "
+          className="bg-primary h-full "
           
         >
           <h1 className=" text-7xl px-40 py-5 mt-10 sm:text-4xl sm:mt-5 sm:px-6 text-secondary font-semibold">
@@ -32,7 +32,7 @@ const Home = () => {
               consequatur. Qui reiciendis nemo voluptas, minima debitis nihil?
             </p>
           </div>
-          <div className=" px-40 text-xl py-6 sm:text-center">
+          <div className=" px-40 text-xl py-20 sm:text-center">
             <a href="/contact">
               <button className="border-2 border-tertiary bg-transparent text-white px-8 py-3 rounded-xl hover:bg-secondary hover:text-black sm:px-4">
                 Connect
