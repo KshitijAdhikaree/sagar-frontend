@@ -5,7 +5,7 @@ const Home = () => {
     <div>
       <div className="flex w-full items-center sm:flex-col">
         <div
-          className="bg-primary "
+          className="bg-primary w-full "
           
         >
           <h1 className=" text-7xl px-40 py-5 mt-10 sm:text-4xl sm:mt-5 sm:px-6 text-secondary font-semibold">
